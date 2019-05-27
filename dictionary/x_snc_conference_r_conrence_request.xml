@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Conrence Request" max_length="40" name="x_snc_conference_r_conrence_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Conference Location" max_length="40" name="conference_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Title on Badge" max_length="40" name="title_on_badge" type="string"/>
+        <element attributes="omit_sys_original=true" label="Travel Cost" max_length="20" name="travel_cost" type="currency"/>
+        <element label="Travel Required" max_length="40" name="travel_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="conference" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Conference" sequence="0" value="conference"/>
+                <element inactive_on_update="false" label="Meetup" sequence="1" value="meetup"/>
+                <element inactive_on_update="false" label="Trade show" sequence="2" value="trade show"/>
+                <element inactive_on_update="false" label="Training" sequence="3" value="training"/>
+                <element inactive_on_update="false" label="Workshop" sequence="4" value="workshop"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Conference Cost" max_length="20" name="u_currency_2" type="currency"/>
+    </element>
+</database>

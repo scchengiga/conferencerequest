@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_conference_r_conrence_request">x_snc_conference_r_conrence_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CON</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-27 22:33:36</sys_created_on>
+        <sys_id>4973e83b5ce533007f44013fe5d975d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CON</sys_name>
+        <sys_package display_value="Conference Registration" source="x_snc_conference_r">262168f75ce533007f44013fe5d97574</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Registration">262168f75ce533007f44013fe5d97574</sys_scope>
+        <sys_update_name>sys_number_4973e83b5ce533007f44013fe5d975d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-27 22:33:36</sys_updated_on>
+    </sys_number>
+</record_update>
